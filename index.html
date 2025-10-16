@@ -1,3 +1,206 @@
-<img src="images/slide_1.webp" alt="Slide s nočním městem">
-
-<img src="images/card_img_1.webp" alt="Obrázek vlaku Siemens Velaro">             
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlaky</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid my-2">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Úvod</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Výhody</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Ceník</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Model, číslo, označení" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Vyhledat</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="py-5 text-center">
+        <h1 class="mb-5">Tapety vlaků a lokomotiv</h1>
+        <nav class="d-flex justify-content-center" style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Úvod</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Vlaky a lokomotivy</li>
+            </ol>
+        </nav>
+        <p>To co jsem zde viděl snad nelze ani popsat slovy <br><cite>Štěpán Halíř, SPSŠSSSŠ a VOSCH Liberec</cite></p>
+        <div class="container-xxl">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/slide_1.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/slide_2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/slide_3.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/slide_4.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container-xxl py-5">
+            <h2 class="my-2">Nejoblíbenější tapety</h2>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row g-2">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="images/card_img_1.webp" class="card-img-top" alt="Obrázek vlaku Siemens Velaro">
+                                <div class="card-body">
+                                    <h5 class="card-title">Siemens Velaro</h5>
+                                    <p class="card-text">Vysokorychlostní vlak používaný např. jako ICE 3 v Německu nebo AVE S-103 ve Španělsku.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2560x1440</li>
+                                    <li class="list-group-item">1920x1080</li>
+                                    <li class="list-group-item">1600x900</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Stáhnout</a>
+                                    <a href="#" class="card-link">Sdílet</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="images/card_img_2.webp" class="card-img-top" alt="Obrázek vlaku Škoda 7Ev RegioPanter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Škoda 7Ev RegioPanter</h5>
+                                    <p class="card-text">Moderní český elektrický vlak pro regionální dopravu (ČD, ZSSK).</p>
+                                 </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2560x1440</li>
+                                    <li class="list-group-item">1920x1080</li>
+                                    <li class="list-group-item">1600x900</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Stáhnout</a>
+                                    <a href="#" class="card-link">Sdílet</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="images/card_img_3.webp" class="card-img-top" alt="Obrázek vlaku TGV Duplex">
+                                <div class="card-body">
+                                    <h5 class="card-title">TGV Duplex</h5>
+                                    <p class="card-text">Francouzský dvoupatrový vysokorychlostní vlak provozovaný společností SNCF.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2560x1440</li>
+                                    <li class="list-group-item">1920x1080</li>
+                                    <li class="list-group-item">1600x900</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Stáhnout</a>
+                                    <a href="#" class="card-link">Sdílet</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="./images/card_img_4.webp" class="card-img-top" alt="Obrázek vlaku Bombardier Talent 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bombardier Talent 2</h5>
+                                    <p class="card-text">Univerzální příměstský a regionální vlak využívaný v Německu.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2560x1440</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Stáhnout</a>
+                                    <a href="#" class="card-link">Sdílet</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/card_img_5.webp" class="card-img-top" alt="Obrázek vlaku ČD 754 Brejlovec">
+                                <div class="card-header">
+                                    <h5 class="card-title">Siemens Velaro</h5>
+                                    <p class="card-text">Klasická česká motorová lokomotiva pro osobní i nákladní vlaky.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2560x1440</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Stáhnout</a>
+                                    <a href="#" class="card-link">Sdílet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example" class="my-4">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item active" aria-current="true">Vláčci</li>
+                        <li class="list-group-item">Drony</li>
+                        <li class="list-group-item">Automobily</li>
+                        <li class="list-group-item">Motokáry</li>
+                        <li class="list-group-item">Letadla</li>
+                        <li class="list-group-item">Motorky</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-auto my-2">
+                    <p>@ 2025 Tapety všemožných strojů</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>                     
